@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="Rockpaper.css">
+  </head>
+  <body>
+      <audio id="winn">
+        <source src="winning.mp3">
+      </audio>
+      <audio id="losee">
+        <source src="losing.mp3">
+      </audio>
+      <audio id="draww">
+        <source src="draw.mp3">
+      </audio>
+     <header>
+       <h1>Rock Paper Scissors</h1>
+     </header>
+     <div class="score-board">
+       <div id="user-label" class="badge">user</div>
+       <div id="computer-label" class="badge">comp</div>
+       <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+    <div class="result">
+      <p> Papers cover rock . You win! </p>
+    </div>
+    <div class="choices">
+      <div class="choice" id="r">
+        <img src="images/rock2.png">
+      </div>
+      <div class="choice" id="p">
+        <img src="images/paper2.png" alt="">
+      </div>
+      <div class="choice" id="s">
+        <img src="images/scissors2.png" alt="">
+      </div>
+    </div>
+
+    <div id="action-message"> Make your move </div>
+
+
+    <script src="Rockpaper.js"></script>
+  </body>
+  <footer>
+    <p>&copy; Praharsh</p>
+  </footer>
+</html>
